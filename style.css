@@ -1,0 +1,151 @@
+
+body{
+    background-color: gray;
+}
+
+.welcome-box{
+    position: relative;
+    left: 27%;
+    width: 35%;
+    border: 8px solid #cb4c4c;
+    border-radius: 20px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 6px 6px 2px 1px purple;
+    font-weight: bolder;
+}
+
+.wel-text{
+    margin: 0 110px;
+    color: purple;
+    font-style: italic;
+    line-height: 45px;
+    text-shadow: 1px 2px 3px purple;
+}
+
+.greenbox{
+    height: 750px;
+    border: 8px solid green;
+}
+
+.box{
+    width: 280px;
+    height: 280px;
+    color: black;
+    background-color: white;
+    font-weight: bolder;
+    border: 8px solid #cb4c4c;
+    box-shadow: 6px 6px 2px 1px purple;
+    border-radius: 20px;
+    text-shadow: 1px 2px 3px purple;
+}
+
+.box1{
+    float: left;
+    text-align: center;
+    margin-bottom: 100px;
+    line-height: 50px;
+    /* padding-top: 5px; */
+}
+
+.box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float:right;
+    position: relative;
+    right: 80px;
+}
+
+.box3{
+    float: left;
+    clear: left;
+}
+
+.box4{
+    float:right;
+    position: relative;
+    right: 80px;
+    text-align: center;
+}
+
+.in{
+    margin-bottom: 20px;
+}
+
+input[type=number]{
+    text-align: center;
+}
+input[type=submit]{
+    background-color: #cb4c4c;
+    border-radius: 10px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+.parent{
+    margin: 25px 0;
+    width: 50%;
+    height: 50%;
+    border: 8px solid purple;
+    background-color: green;
+    text-align: center;
+}
+
+.pbox{
+    width: 49%;
+    height: 250px;
+    border: 2px solid gray;
+    background-color: #d3d38a;
+    font-style: italic;
+}
+
+.pbox1{
+    float: left;
+}
+
+.pbox2{
+    float: right;
+}
+
+.pbox3{
+    font-style: italic;
+    width: 101%;
+    height: 250px;
+    border: 2px solid gray;
+    float: left;
+    background-color: #d3d38a;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.offerbox{
+    width: 450px;
+    height: 68px;
+    border: 8px solid #cb4c4c;
+    border-radius: 20px;
+    background-color: greenyellow;
+    position: fixed;
+    left: 29%;
+    bottom: 100px; 
+    display: flex;
+    color: #ab3535;
+    font-style: italic;
+}
+
+.text1{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 12px;
+}
+
+.text2{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 8px;
+}
